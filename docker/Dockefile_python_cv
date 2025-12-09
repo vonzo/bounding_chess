@@ -14,7 +14,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 # Install packages
 RUN pip install --upgrade pip && \
-    pip install opencv-python fiftyone datumaro matplotlib torch
+    pip install opencv-python fiftyone datumaro matplotlib torch torchvision dvc
 
 # Set working directory
 WORKDIR /app
